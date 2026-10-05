@@ -1,0 +1,48 @@
+{
+  "$GMProject":"v1",
+  "%Name":"Game Comp Test Space",
+  "AudioGroups":[
+    {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+  ],
+  "configs":{
+    "children":[],
+    "name":"Default",
+  },
+  "defaultScriptType":1,
+  "Folders":[
+    {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
+  ],
+  "ForcedPrefabProjectReferences":[],
+  "IncludedFiles":[],
+  "isEcma":false,
+  "LibraryEmitters":[],
+  "MetaData":{
+    "IDEVersion":"2024.14.0.207",
+  },
+  "name":"Game Comp Test Space",
+  "resources":[
+    {"id":{"name":"mainControl","path":"objects/mainControl/mainControl.yy",},},
+    {"id":{"name":"RevControl","path":"objects/RevControl/RevControl.yy",},},
+    {"id":{"name":"Revolver","path":"objects/Revolver/Revolver.yy",},},
+    {"id":{"name":"ShotControl","path":"objects/ShotControl/ShotControl.yy",},},
+    {"id":{"name":"Shotgun","path":"objects/Shotgun/Shotgun.yy",},},
+    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"disable","path":"scripts/disable/disable.yy",},},
+    {"id":{"name":"RevClove","path":"sprites/RevClove/RevClove.yy",},},
+    {"id":{"name":"RevCloveAmmo","path":"sprites/RevCloveAmmo/RevCloveAmmo.yy",},},
+    {"id":{"name":"RevDot","path":"sprites/RevDot/RevDot.yy",},},
+    {"id":{"name":"ShotDot","path":"sprites/ShotDot/ShotDot.yy",},},
+    {"id":{"name":"ShotShell","path":"sprites/ShotShell/ShotShell.yy",},},
+  ],
+  "resourceType":"GMProject",
+  "resourceVersion":"2.0",
+  "RoomOrderNodes":[
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+  ],
+  "templateType":"game",
+  "TextureGroups":[
+    {"$GMTextureGroup":"","%Name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"Default","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
+  ],
+}

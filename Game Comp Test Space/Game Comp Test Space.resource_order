@@ -1,0 +1,17 @@
+{
+  "FolderOrderSettings":[
+    {"name":"Scripts","order":6,"path":"folders/Scripts.yy",},
+    {"name":"Objects","order":5,"path":"folders/Objects.yy",},
+    {"name":"Sprites","order":4,"path":"folders/Sprites.yy",},
+  ],
+  "ResourceOrderSettings":[
+    {"name":"mainControl","order":4,"path":"objects/mainControl/mainControl.yy",},
+    {"name":"RevControl","order":1,"path":"objects/RevControl/RevControl.yy",},
+    {"name":"ShotControl","order":2,"path":"objects/ShotControl/ShotControl.yy",},
+    {"name":"Shotgun","order":3,"path":"objects/Shotgun/Shotgun.yy",},
+    {"name":"RevCloveAmmo","order":2,"path":"sprites/RevCloveAmmo/RevCloveAmmo.yy",},
+    {"name":"RevDot","order":1,"path":"sprites/RevDot/RevDot.yy",},
+    {"name":"ShotDot","order":3,"path":"sprites/ShotDot/ShotDot.yy",},
+    {"name":"ShotShell","order":4,"path":"sprites/ShotShell/ShotShell.yy",},
+  ],
+}
