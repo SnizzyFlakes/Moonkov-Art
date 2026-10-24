@@ -1,0 +1,14 @@
+{
+  "FolderOrderSettings":[
+    {"name":"Fonts","order":4,"path":"folders/Fonts.yy",},
+    {"name":"Objects","order":2,"path":"folders/Objects.yy",},
+    {"name":"Scripts","order":3,"path":"folders/Scripts.yy",},
+    {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
+  ],
+  "ResourceOrderSettings":[
+    {"name":"loginAnim","order":1,"path":"objects/loginAnim/loginAnim.yy",},
+    {"name":"cmdPrompt","order":2,"path":"sprites/cmdPrompt/cmdPrompt.yy",},
+    {"name":"lightFader","order":1,"path":"sprites/lightFader/lightFader.yy",},
+    {"name":"loginUI","order":3,"path":"sprites/loginUI/loginUI.yy",},
+  ],
+}
