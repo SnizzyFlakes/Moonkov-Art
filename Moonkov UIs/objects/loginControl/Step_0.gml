@@ -13,7 +13,9 @@ if animDelay <= 0 and createdAnims < 10{
 
 if createdAnims > 9 and proceedTimer > 0{
 	proceedTimer -= 1;	
-	
+	if proceedTimer < 15{
+		fadePos += 50;
+	}
 }
 
 if proceedTimer == 0 and finished == false{
@@ -23,7 +25,7 @@ if proceedTimer == 0 and finished == false{
 	}
 }
 
-if finished == true and flickerTime < 0{
+if finished == true and flickerTime < 0 and timer < 1{
 	image_alpha = 1 + random_range(-0.1,-0.4);
 	flickerTime = round(random_range(15,30));
 }	
@@ -37,4 +39,19 @@ if flickerTime < 10 and flickerTime % 2 == 0{
 
 else if flickerTime % 2 == 0{
 	shake = round(random_range(-5,5))	
+}
+
+if finished == true and keyboard_check_pressed(vk_enter){
+	timer = 1;	
+}
+
+if timer > 0{
+	timer += 1;
+	
+	if timer >= 30 and timer < 45{
+		fadePos -= 50;	
+	}
+	else if timer > 45{
+		room_goto(MainRoom);
+	}
 }

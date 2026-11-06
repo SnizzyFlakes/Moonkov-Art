@@ -17,3 +17,10 @@ shake = 0;
 
 finished = false;
 flickerTime = 30;
+
+timer = 0;
+
+var created = instance_create_depth(0,0,20,fader);
+created.target = self;
+
+fadePos = 0;
